@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "AD8549B7-23B5-49E4-8273-AC5FC331E45E",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SwiftyLib.xcodeproj",
+        "identifier" : "02AD1A8F2A4B9BBC001B5E8C",
+        "name" : "SwiftyLibTests"
+      }
+    }
+  ],
+  "version" : 1
+}
