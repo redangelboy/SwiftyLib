@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0201F43F2A4C7D6E00A99061 /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AD1A862A4B9BBC001B5E8C /* SwiftyLib.framework */; };
 		024D0B812A4BB7B700AE3EC8 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D0B802A4BB7B700AE3EC8 /* SwiftyLib.swift */; };
 		02AD1A8B2A4B9BBC001B5E8C /* SwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02AD1A8A2A4B9BBC001B5E8C /* SwiftyLib.docc */; };
 		02AD1A912A4B9BBC001B5E8C /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AD1A862A4B9BBC001B5E8C /* SwiftyLib.framework */; };
@@ -68,12 +69,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0201F43F2A4C7D6E00A99061 /* SwiftyLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0201F43E2A4C7C5C00A99061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		02AD1A7C2A4B9BBC001B5E8C = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +91,7 @@
 				02AD1A942A4B9BBC001B5E8C /* SwiftyLibTests */,
 				02BDBDCA2A4BA1B20068F3C7 /* SwiftyLibExamples */,
 				02AD1A872A4B9BBC001B5E8C /* Products */,
+				0201F43E2A4C7C5C00A99061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -544,6 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38V5N63B5Z;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/consultant/Library/Developer/Xcode/DerivedData/SwiftyLib-azidchqxeuhflrauvpshaenemfgx/Build/Products/Debug-iphoneos/SwiftyLib.framework";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
