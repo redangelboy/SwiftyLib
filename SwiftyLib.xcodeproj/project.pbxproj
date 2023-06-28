@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024D0B812A4BB7B700AE3EC8 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D0B802A4BB7B700AE3EC8 /* SwiftyLib.swift */; };
 		02AD1A8B2A4B9BBC001B5E8C /* SwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02AD1A8A2A4B9BBC001B5E8C /* SwiftyLib.docc */; };
 		02AD1A912A4B9BBC001B5E8C /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AD1A862A4B9BBC001B5E8C /* SwiftyLib.framework */; };
 		02AD1A962A4B9BBC001B5E8C /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD1A952A4B9BBC001B5E8C /* SwiftyLibTests.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024D0B802A4BB7B700AE3EC8 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 		02AD1A862A4B9BBC001B5E8C /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AD1A892A4B9BBC001B5E8C /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
 		02AD1A8A2A4B9BBC001B5E8C /* SwiftyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLib.docc; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		02AD1A7C2A4B9BBC001B5E8C = {
 			isa = PBXGroup;
 			children = (
+				02BDBDC22A4BA0690068F3C7 /* SwiftyLib.xctestplan */,
 				02AD1A882A4B9BBC001B5E8C /* SwiftyLib */,
 				02AD1A942A4B9BBC001B5E8C /* SwiftyLibTests */,
 				02BDBDCA2A4BA1B20068F3C7 /* SwiftyLibExamples */,
@@ -97,6 +100,7 @@
 			children = (
 				02AD1A892A4B9BBC001B5E8C /* SwiftyLib.h */,
 				02AD1A8A2A4B9BBC001B5E8C /* SwiftyLib.docc */,
+				024D0B802A4BB7B700AE3EC8 /* SwiftyLib.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -105,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				02AD1A952A4B9BBC001B5E8C /* SwiftyLibTests.swift */,
-				02BDBDC22A4BA0690068F3C7 /* SwiftyLib.xctestplan */,
 			);
 			path = SwiftyLibTests;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02AD1A8B2A4B9BBC001B5E8C /* SwiftyLib.docc in Sources */,
+				024D0B812A4BB7B700AE3EC8 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +505,7 @@
 		02AD1A9E2A4B9BBC001B5E8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38V5N63B5Z;
@@ -517,6 +522,7 @@
 		02AD1A9F2A4B9BBC001B5E8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 38V5N63B5Z;
