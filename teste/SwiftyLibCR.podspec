@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint SwiftyLib.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SwiftyLibCR.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "SwiftyLib"
+  spec.name         = "SwiftyLibCR"
   spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
@@ -18,12 +18,11 @@ This CocoaPods library helps you perform calculation.
 
   spec.homepage     = "https://github.com/jeantimex/SwiftyLib"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "jeantimex" => "jean.timex@gmail.com" }
+  spec.author       = { "Cesar Rojas" => "caesar.red@gmail.com" }
 
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{spec.version}" }
-  spec.source_files  = "SwiftyLib/**/*.{h,m,swift}"
+  spec.source	     = { :path => '.' }
 
 end

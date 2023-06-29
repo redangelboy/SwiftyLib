@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyLib (1.0.0)
+
+DEPENDENCIES:
+  - SwiftyLib (from `../SwiftyLib`)
+
+EXTERNAL SOURCES:
+  SwiftyLib:
+    :path: "../SwiftyLib"
+
+SPEC CHECKSUMS:
+  SwiftyLib: 245e8e1e73abc8b8c90f64653d5f92cdabbe3945
+
+PODFILE CHECKSUM: 611e02450afb9bb5aec3bd133a04fc30d0fde142
+
+COCOAPODS: 1.12.1

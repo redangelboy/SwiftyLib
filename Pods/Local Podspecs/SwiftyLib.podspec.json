@@ -1,0 +1,23 @@
+{
+  "name": "SwiftyLib",
+  "version": "1.0.0",
+  "summary": "A CocoaPods library written in Swift",
+  "description": "A cocoaPods library",
+  "platforms": {
+    "ios": "16.4"
+  },
+  "homepage": "https://github.com/jeantimex/SwiftyLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cesar Rojas": "caesar.red@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "SwiftyLib",
+  "swift_versions": "4.2",
+  "swift_version": "4.2"
+}

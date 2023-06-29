@@ -4,34 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SwiftyLib.xcscheme_^#shared#^_</key>
+		<key>Pods-SwiftyLib.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
-		<key>SwiftyLib2.xcscheme</key>
+		<key>Pods-SwiftyLibTests.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
-		<key>SwiftyLibExamples.xcscheme_^#shared#^_</key>
+		<key>SwiftyLib.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>02AD1A852A4B9BBC001B5E8C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>02AD1A8F2A4B9BBC001B5E8C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
